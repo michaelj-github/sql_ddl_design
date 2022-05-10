@@ -55,9 +55,10 @@ VALUES
 ('"Laomedeia"', '4'),
 ('"Psamathe"', '4'),
 ('"Neso"', '4');
-
-
-
   
-  -- SELECT * FROM planets;
-  -- SELECT * FROM moons;
+-- SELECT * FROM planets;
+-- SELECT * FROM moons;
+
+-- SELECT p.planet_name, m.moon_name FROM planets p
+-- FULL JOIN moons m
+-- ON m.planet_id = p.id;
